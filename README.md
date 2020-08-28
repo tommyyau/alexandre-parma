@@ -23,8 +23,10 @@ Also, to make these overridden settings effective at CI/CD , you need to add fol
 ````
 ALGOLIA_APP_ID=<<value>>
 ALGOLIA_SEARCH_API_KEY=<<value>>
+ALGOLIA_ADMIN_API_KEY=<<value
 
 ````
+Note: For creating a new index in your algolia account, replace the above these three values in GitHub Secrets (for CI/CD) and .env file (for local). Also, algolia plugin for gatsby works while doing the build so make sure to run build once if you want to create a fresh index in your account.
 # Installation
 
 1. run `yarn` from repo root
