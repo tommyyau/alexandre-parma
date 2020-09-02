@@ -18,12 +18,12 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'REPO_URL',
+            value: 'https://github.com/tommyyau/alexandre-parma.git',
             category: 'Code'
           },
           {
             title: 'Frontend',
-            value: 'FRONTEND_URL',
+            value: 'http://lucid-mcnulty-2ed4c5.netlify.app',
             category: 'apps'
           }
         ]

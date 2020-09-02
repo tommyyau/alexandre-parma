@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "PROJECT_NAME"
+    "name": "alexandre-parma"
   },
   "api": {
-    "projectId": "PROJECT_ID",
-    "dataset": "DATASET_ID"
+    "projectId": "88qxxs0w",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
